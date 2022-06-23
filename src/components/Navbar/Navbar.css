@@ -43,8 +43,8 @@ nav {
     color: rgb(225,135,131);
     text-decoration: none;
     transition: color 0.2s ease-in-out;
-    font: 'open sans', sans-serif;
-    font-size: 1.1rem;
+    font-family: 'Nanum Gothic', sans-serif;   
+     font-size: 1.1rem;
     font-weight: normal;
   }
   
@@ -90,8 +90,8 @@ nav {
     padding:0 2em;
     cursor:pointer;
     transition:800ms ease all;
-    font-family: 'open sans', sans-serif;
-    text-align: center;
+    font-family: 'Nanum Gothic', sans-serif;
+        text-align: center;
     box-shadow: 0 0 5px 0 whitesmoke;
   }
   .button:hover{
@@ -129,8 +129,8 @@ nav {
     padding:0.3em;
     cursor:pointer;
     transition:800ms ease all;
-    font-family: 'open sans', sans-serif;
-    text-align: center;
+    font-family: 'Nanum Gothic', sans-serif;
+        text-align: center;
     box-shadow: 0 0 5px 0 whitesmoke;
     text-shadow: 1px 1px 0px #0000003b;
 

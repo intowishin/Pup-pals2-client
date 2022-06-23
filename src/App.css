@@ -23,8 +23,8 @@ body {
 }
 
 .title {
-  font: 'open sans', sans-serif;
-  font-weight: bold;
+  font-family: 'Nanum Gothic', sans-serif;
+    font-weight: bold;
   z-index: 2;
   font-size: 2rem;
   color: rgba(0, 0, 0, 0.653);
@@ -35,6 +35,7 @@ body {
   border-radius: 25px;
   box-shadow: #0000002e 1px 3px 4px 2px;
   padding: 2em;
+  font-family: 'Nanum Gothic', sans-serif;
 }
 
 .matches-container {
