@@ -37,7 +37,7 @@ export default function LogIn({ authenticate }) {
     e.preventDefault();
     try {
       const { data } = await axios.post(
-        `http://localhost:5005/api/auth/login`,
+        `https://pup-pals.herokuapp.com/api/auth/login`,
         formData
       );
       setUser(() => data);

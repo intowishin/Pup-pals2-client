@@ -30,7 +30,7 @@ const AddDog = () => {
     console.log(formData);
     try {
       const { data } = await axios.post(
-        `http://localhost:5005/api/dog`,
+        `https://pup-pals.herokuapp.com/api/dog`,
         {formData, userId: user._id}
       );
       setDog(data);
@@ -42,7 +42,7 @@ const AddDog = () => {
 
   const uploadImage = (file) => {
     return axios
-      .post("http://localhost:5005/api/dog/upload", file)
+      .post("https://pup-pals.herokuapp.com/api/dog/upload", file)
       .then((res) => res.data)
       .catch((err) => console.log(err));
   };

@@ -30,7 +30,7 @@ const DogProfile = () => {
 
   const getProfileDetails = async () => {
     console.log("this is the", id);
-    const { data } = await axios.get(`http://localhost:5005/api/dog/${id}`);
+    const { data } = await axios.get(`https://pup-pals.herokuapp.com/api/dog/${id}`);
     setDog(() => data);
     setFormData(() => data);
   };
@@ -46,7 +46,7 @@ const DogProfile = () => {
   const updateProfile = async () => {
     try {
       const { data } = await axios.put(
-        `http://localhost:5005/api/dog/${id}`,
+        `https://pup-pals.herokuapp.com/api/dog/${id}`,
         formData
       );
       setDog(() => data);
@@ -57,13 +57,13 @@ const DogProfile = () => {
   };
 
   const deleteDog = async () => {
-    const { data } = await axios.delete(`http://localhost:5005/api/dog/${id}`);
+    const { data } = await axios.delete(`https://pup-pals.herokuapp.com/api/dog/${id}`);
     navigateTo("/adddog");
   };
 
   const uploadImage = (file) => {
     return axios
-      .post("http://localhost:5005/api/dog/upload", file)
+      .post("https://pup-pals.herokuapp.com/api/dog/upload", file)
       .then((res) => res.data)
       .catch((err) => console.log(err));
   };

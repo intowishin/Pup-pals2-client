@@ -10,7 +10,7 @@ function MyMatches() {
   const [matches, setMatches] = useState([]);
 
   useEffect(() => { 
-    authAxios.get('http://localhost:5005/api/matches')
+    authAxios.get('https://pup-pals.herokuapp.com/api/matches')
       .then(response => {
         setMatches(response.data)
       })

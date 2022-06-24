@@ -20,7 +20,7 @@ const UserProfile = () => {
 
   const getProfileDetails = async () => {
     const { data } = await axios.get(
-      `http://localhost:5005/api/user/${user._id}`
+      `https://pup-pals.herokuapp.com/api/user/${user._id}`
     );
     setUser(() => data);
     setFormData(() => data);
@@ -29,7 +29,7 @@ const UserProfile = () => {
   const updateProfile = async () => {
     try {
       const { data } = await axios.post(
-        `http://localhost:5005/api/user/${user._id}`,
+        `https://pup-pals.herokuapp.com/api/user/${user._id}`,
         formData
       );
       setUser(data);
