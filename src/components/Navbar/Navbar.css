@@ -5,8 +5,8 @@ nav {
   
     /* justify-content: space-around;
     flex-wrap: wrap; */
-    background: rgb(182,240,176);
-    background: linear-gradient(0deg, rgba(182,240,176,0.8197872899159664) 0%, rgba(191,225,249,0.8702074579831933) 100%);
+    background: rgb(197,241,245);
+    background: linear-gradient(0deg, rgba(197,241,245,0.3604035364145658) 0%, rgba(197,241,245,0.8057816876750701) 62%);
     font-weight: 600;
     box-shadow: #00000036 0px 1px 3px 2px;
 /*   
@@ -59,26 +59,6 @@ nav {
     padding-bottom: 16px
   }
   
-  /* .nav-logoutbtn {
-    font-family: inherit;
-    font-weight: inherit;
-    padding: 0.5em 1em;
-    margin-left: 1em;
-    background-color: #ffffff;
-    box-shadow: 0 0 5px 0 aliceblue;
-    border: none;
-    border-radius: 20px;
-    cursor: pointer;
-    color: #e3f2ff;
-    transition: all 0.2s ease-in-out;
-    position: sticky;
-    top: 0;
-  }
-  
-  .nav-logoutbtn:hover {
-    transform: scale(1.05);
-    background-color: #d13e3e;
-  } */
 
   .button{
     background: transparent;

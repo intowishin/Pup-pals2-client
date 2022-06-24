@@ -59,14 +59,14 @@ const Navbar = (props) => {
           </>
         ) : (
           <>
-            <button className="button">
+            
             <NavLink to={"/signup"} className="authLink">
               Sign-Up
             </NavLink>
-            </button>
-            {/* <NavLink to={"/login"} className="authLink">
+            
+            <NavLink to={"/login"} className="authLink">
               Log In
-            </NavLink> */}
+            </NavLink>
           </>
         )}
       </div>
