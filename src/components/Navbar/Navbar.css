@@ -39,8 +39,7 @@ nav {
   }
   
   .authLink,  .nav__authLinks button {
-    color: #ffffff;
-    color: rgb(225,135,131);
+    color: #8db989;
     text-decoration: none;
     transition: color 0.2s ease-in-out;
     font-family: 'Nanum Gothic', sans-serif;   
