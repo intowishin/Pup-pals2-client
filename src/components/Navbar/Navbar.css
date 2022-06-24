@@ -59,45 +59,27 @@ nav {
   }
   
 
-  /* .button{
-    background: transparent;
-    border:none;
-    position:relative;
-    height:60px;
-    font-size:1.6em;
-    font-weight:bold;
-    padding:0 2em;
-    cursor:pointer;
-    transition:800ms ease all;
-    font-family: 'Nanum Gothic', sans-serif;
-        text-align: center;
-    box-shadow: 0 0 5px 0 whitesmoke;
+  .nav-logoutbtn button {
+    color: #f48c8c;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+    font-family: 'Nanum Gothic', sans-serif;   
+     font-size: 1.1rem;
+    font-weight: normal;
   }
-  .button:hover{
-    background: transparent;
+  
+  .nav-logoutbtn + .nav-logoutbtn {
+    padding: 1em;
   }
-  .button:before, .button:after{
-    content:'';
-    position:absolute;
-    top:0;
-    right:0;
-    height:2px;
-    width:0;
-    background: white;
-    transition:400ms ease all;
-  }
-  .button:after{
-    right:inherit;
-    top:inherit;
-    left:0;
-    bottom:0;
-  }
-  .button:hover:before,button:hover:after{
-    width:100%;
-    transition:800ms ease all;
-  } */
+  
+  .nav-logoutbtn:hover {
+    color: #fff;
+    border-bottom: 0.5px solid #fff;
 
-  .nav-logoutbtn{
+    padding-bottom: 16px
+  }
+
+  /* .nav-logoutbtn{
     color:#ffffff;
     background: transparent;
     border:none;
@@ -137,4 +119,4 @@ nav {
   .nav-logoutbtn:hover:before,nav-logoutbtn:hover:after{
     width:100%;
     transition:800ms ease all;
-  }
+  } */
