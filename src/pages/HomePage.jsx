@@ -1,5 +1,6 @@
 import "../App.css";
 import dogimg from "../images/hpdog3.png";
+import { NavLink } from "react-router-dom";
 
 function HomePage() {
   return (
@@ -25,6 +26,10 @@ function HomePage() {
             pomsky leash jump bite tennis ball, dog bowl stay english mastiff
             sit.
           </p>
+          <br />
+          <button className="btn btn-primary">
+            <NavLink to="/signup">Sign Up!</NavLink>
+          </button>
         </div>
         <div>
           <img src={dogimg} alt="placholder" />
