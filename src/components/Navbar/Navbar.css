@@ -57,34 +57,9 @@ nav {
 
     padding-bottom: 16px
   }
-  
 
-  .nav-logoutbtn button {
+  .nav-logoutbtn{
     color: #f48c8c;
-    background: transparent;
-    border:none;
-
-    text-decoration: none;
-    transition: color 0.2s ease-in-out;
-    font-family: 'Nanum Gothic', sans-serif;   
-     font-size: 1.1rem;
-    font-weight: normal;
-  }
-  
-  .nav-logoutbtn + .nav-logoutbtn {
-    padding: 1em;
-  }
-  
-  .nav-logoutbtn:hover {
-    color: #fff;
-    border-bottom: 0.5px solid #fff;
-    background: transparent;
-
-    padding-bottom: 16px
-  }
-
-  /* .nav-logoutbtn{
-    color:#ffffff;
     background: transparent;
     border:none;
     position:relative;
@@ -95,9 +70,7 @@ nav {
     cursor:pointer;
     transition:800ms ease all;
     font-family: 'Nanum Gothic', sans-serif;
-        text-align: center;
-    box-shadow: 0 0 5px 0 whitesmoke;
-    text-shadow: 1px 1px 0px #0000003b;
+    text-align: center;
 
   }
   .nav-logoutbtn:hover{
@@ -123,4 +96,4 @@ nav {
   .nav-logoutbtn:hover:before,nav-logoutbtn:hover:after{
     width:100%;
     transition:800ms ease all;
-  } */
+  }
