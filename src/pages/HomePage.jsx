@@ -27,9 +27,7 @@ function HomePage() {
             sit.
           </p>
           <br />
-          <button className="btn btn-primary">
-            <NavLink to="/signup">Sign Up!</NavLink>
-          </button>
+            <NavLink className="btn btn-primary" to="/signup">Sign Up!</NavLink>
         </div>
         <div>
           <img src={dogimg} alt="placholder" />

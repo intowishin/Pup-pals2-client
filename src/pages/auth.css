@@ -91,6 +91,10 @@ html{
   color: rgba(187,187,187,0.9);
 }
 
+a.btn {
+  padding: .25em;
+}
+
 .btn {
   cursor: pointer;
   font-size: 1.3rem;
