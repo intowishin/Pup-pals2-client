@@ -54,7 +54,7 @@ nav {
   .authLink:hover {
     color: #fff;
     border-bottom: 0.5px solid #fff;
-
+    transition:400ms ease all;
     padding-bottom: 16px
   }
 

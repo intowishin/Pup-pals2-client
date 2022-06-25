@@ -29,7 +29,7 @@ const DogProfile = () => {
   
 
   const getProfileDetails = async () => {
-    console.log("this is the", id);
+    // console.log("this is the", id);
     const { data } = await axios.get(`https://pup-pals.herokuapp.com/api/dog/${id}`);
     setDog(() => data);
     setFormData(() => data);
@@ -149,7 +149,7 @@ const DogProfile = () => {
           <p>{dog.gender}</p>
           <p>{dog.breed}</p>
           <p>{dog.about}</p>
-          <div class="btn-group">
+          <div className="btn-group">
           <button className="btn btn-primary" onClick={editHandler}>Edit</button>
           <button className="btn btn-secondary" onClick={deleteHandler}>Delete</button>
         </div>
