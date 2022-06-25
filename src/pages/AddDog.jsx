@@ -106,7 +106,7 @@ const AddDog = () => {
 
   return (
     <div>
-      <h1>Create Pup Profile</h1>
+      <h2>Create Pup Profile</h2>
       <Form
         formData={formData}
         submitHandler={submitHandler}
