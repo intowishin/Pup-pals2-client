@@ -15,7 +15,7 @@ function Search() {
 }, []);
 
 const getNewPup = () => {
-  authAxios.get('https://pup-pals.herokuapp.com/api/matches/find')
+  authAxios.get(`${process.env.REACT_APP_API_URL}/matches/find`)
       .then(response => {
           setDog(response.data)
       })
@@ -23,7 +23,7 @@ const getNewPup = () => {
 
 
 const postView = status => {
-  authAxios.post('https://pup-pals.herokuapp.com/api/matches/like', {
+  authAxios.post(`${process.env.REACT_APP_API_URL}/matches/like`, {
       status: status,
       dog_id: dog._id
   })

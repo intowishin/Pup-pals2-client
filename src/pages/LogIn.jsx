@@ -37,7 +37,7 @@ export default function LogIn({ authenticate }) {
     e.preventDefault();
     try {
       const { data } = await axios.post(
-        `https://pup-pals.herokuapp.com/api/auth/login`,
+        `${process.env.REACT_APP_API_URL}/auth/login`,
         formData
       );
       setUser(() => data);
