@@ -27,8 +27,8 @@ const postView = status => {
       status: status,
       dog_id: dog._id
   })
-      .then(response => getNewPup())
-      .catch(e => console.log(e));
+      .catch(e => console.log(e))
+      .finally(() => getNewPup())
 }
 
 return (

@@ -82,7 +82,7 @@ const UserProfile = () => {
           <p>{user.age}</p>
           <p>{user.gender}</p>
           <p>{user.about}</p>
-          <button  class="btn btn-primary" onClick={editHandler}>Edit</button>
+          <button  className="btn btn-primary" onClick={editHandler}>Edit</button>
         </div>
       )}
       {editToggler && (
